@@ -1,0 +1,57 @@
+
+body {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: antiquewhite;
+
+}
+
+#controls {
+    display: flex;
+    gap: 30px;
+    margin-bottom:50;
+}
+
+
+#popupbtn, #resetgrid {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 8px 16px;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 15px;
+    background-color: #d60ee8;
+    border-radius: 2px;;
+}
+
+
+
+#container {
+    width:500px;
+    height: 500px;
+    display: flex;
+ 
+    
+}
+
+ 
+   .cell {
+      background: rgb(228, 234, 239);
+      cursor: pointer;
+      border: 1px solid #150101;
+   }
+    .cell.filled {
+      background: rgb(206, 210, 212);
+      border: 1px solid #150101;
+    }
+
+
+ 
+
+
+
+
+
